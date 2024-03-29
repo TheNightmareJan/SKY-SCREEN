@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Home - Brand</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Red+Hat+Display:400,500,600,700,800,900&amp;display=swap">
+    <link rel="stylesheet" href="assets/css/baguetteBox.min.css">
+    <link rel="stylesheet" href="assets/css/Pricing-Yearly--Monthly-badges.css">
+    <link rel="stylesheet" href="assets/css/Pricing-Yearly--Monthly-icons.css">
+    <link rel="stylesheet" href="assets/css/vanilla-zoom.min.css">
+</head>
+
+<body style="font-family: 'Red Hat Display', sans-serif;">
+    <nav class="navbar navbar-expand-lg fixed-top bg-body clean-navbar navbar-light">
+        <div class="container"><a class="navbar-brand logo" href="#"><img width="100px" src="assets/img/SKYSCAN%20(1).png"></a><button data-bs-toggle="collapse" class="navbar-toggler" data-bs-target="#navcol-1"><span class="visually-hidden">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="upload.html">SCREENING</a></li>
+                    <li class="nav-item"><a class="nav-link" href="check.html">CHECK RESULTS</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <main class="page landing-page">
+        <div class="container col-xl-10 col-xxl-8 px-4 py-5">
+            <div class="row align-items-center g-lg-5 py-5">
+                <div class="col col-lg-7 text-center text-lg-start">
+                    <h1 class="display-4 fw-bold lh-1 mb-3">SCREENING CHECK</h1>
+                    <p class="col-lg-10 fs-4">Looking to ensure your image receives thorough pre-screening by an experienced team before it's uploaded to platforms like JetPhotos or Planespotters.net? You're in the right spot. Simply upload your image here and remember to save your unique image ID!<br>For further details, explore our FAQ section.</p>
+                </div>
+                <div class="col col-md-10 mx-auto col-lg-5">
+<form action="upload.php" method="post" enctype="multipart/form-data" class="p-4 p-md-5 border rounded-3 bg-light">
+    <div class="form-floating mb-3">
+        <input class="form-control" type="file" name="image" id="image" accept=".jpg" required>
+    </div>
+    <div class="form-floating mb-3">
+        <input class="form-control" type="text" id="textInput-1" name="discord_username">
+        <label class="form-label" for="textInput-1">YOUR DISCORD NAME (OPTIONAL)</label>
+    </div>
+    <button class="btn btn-primary w-100" type="submit">CHECK</button>
+</form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="page-footer dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <h5>Support</h5>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Help desk</a></li>
+                        <li><a href="#">Forums</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h5>Legal</h5>
+                    <ul>
+                        <li><a href="#">Terms of Service</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>© 2024 SKYSCREEN - CAT III GROUP</p>
+        </div>
+    </footer>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/baguetteBox.min.js"></script>
+    <script src="assets/js/vanilla-zoom.js"></script>
+    <script src="assets/js/theme.js"></script>
+</body>
+
+</html>
