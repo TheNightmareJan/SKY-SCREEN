@@ -1,8 +1,8 @@
 <?php
 $servername = 'localhost:3306';
 $username = 'c3sa';
-$password = 'Uw97%ki46';
-$database = 'c3s-admins';
+$password = 'Uw97%kiad46';
+$database = 'c3sadweqesdasd-admins';
 
 // Erstelle eine Verbindung zur Datenbank
 $conn = new mysqli($servername, $username, $password, $database);
